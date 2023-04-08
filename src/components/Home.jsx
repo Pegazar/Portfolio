@@ -1,5 +1,5 @@
 import React from 'react'
-import cv from "../assets/cv.pdf"
+import cv from "../assets/cvv.pdf"
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
                building responsive front-end web applications.
             </p>
             <div className="flex">
-                <a href={cv} download className="cursor-pointer text-white group border-2 px-6 py-3 my-2
+                <a href={cvv} download className="cursor-pointer text-white group border-2 px-6 py-3 my-2
                 hover:bg-pink-600 hover:border-pink-600">Download CV
                 </a>
             </div>
